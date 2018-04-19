@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SLKeyBoardManage_Example' do
+  pod 'SLKeyBoardManage', :path => '../'
+
+  target 'SLKeyBoardManage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

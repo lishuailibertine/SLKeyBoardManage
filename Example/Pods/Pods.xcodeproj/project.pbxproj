@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02EF4574A8CBBF2FA93D19C4BA7FD211 /* HBControllSenders.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA7043AA6E092374445FDEFBB3B756 /* HBControllSenders.m */; };
+		124128FFBB2B4F003C64BECFE7503E77 /* Pods-SLKeyBoardManage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2D2A07204CB15EDE19D053DEF4C137 /* Pods-SLKeyBoardManage_Example-dummy.m */; };
+		12F2AB8FCA8EC2AD03111F71B54EAA90 /* SLKeyBoardManage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1D91A33BADA00A96DEE3D76825DC26 /* SLKeyBoardManage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32966A9DEF4C35A846629AF1D55B10E4 /* HBControllSenderProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D5166900253C290C39924B3E625E692F /* HBControllSenderProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441848BA4C2D4EA9794AB15666913AB2 /* HBKeyBoardManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 580EEF57F742C67971D5FC9DD7570B56 /* HBKeyBoardManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4617449553E9DB4F2EF2AD5B8C4ED4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4F58AF7DB4C1D30683B94431D1EAF7E2 /* Pods-SLKeyBoardManage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD65CA0C0DCBF6DA5750ACAE09222132 /* Pods-SLKeyBoardManage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		503B835325373E20CC6D40E928CD0291 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DA211D404B5B9D550502E4ED04BA24F2 /* ReplaceMe.m */; };
+		639CE2B4533A7821879FDAC0A52A9431 /* HBKeyBoardManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6437199E91D978E736EAC5D3EE70CA00 /* HBKeyBoardManage.m */; };
+		835B954B00A218FDD7C8D261ABBC3E75 /* Pods-SLKeyBoardManage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E864D5C4A704585B2791ADDB6E4348 /* Pods-SLKeyBoardManage_Tests-dummy.m */; };
+		9A10E703C5BA25E3918BC2E8D32D65EB /* SLKeyBoardManage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64643F9ADDA25BB632B690104CAA0D5A /* SLKeyBoardManage-dummy.m */; };
+		CB76DD47CBDCE8B21D6917589F895EF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E41833A1C86BFDE9850EF4A6DEAD2FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E951134C6F9F7D369DDF7F8D824AE514 /* HBControllSenders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0076EE8AE8A4EF1368D4538D9F85C9F3 /* HBControllSenders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9928A3EDB65CCF4BA474B984CABB9C5 /* Pods-SLKeyBoardManage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1801A67FCBAACFA3EABE86895A5F362C /* Pods-SLKeyBoardManage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		012458263EF31698372C6FF8264AA72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F6FA19C0E3F6C19E7814DA79ED1D264;
+			remoteInfo = "Pods-SLKeyBoardManage_Example";
+		};
+		2695CA1568575893277740B8049497BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACAB82B0C911160191224BFAD0AD263A;
+			remoteInfo = SLKeyBoardManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0076EE8AE8A4EF1368D4538D9F85C9F3 /* HBControllSenders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBControllSenders.h; path = SLKeyBoardManage/Classes/HBControllSenders.h; sourceTree = "<group>"; };
+		11C5D3BD6564AE2B66A23AFADE79C4C5 /* Pods-SLKeyBoardManage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLKeyBoardManage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1801A67FCBAACFA3EABE86895A5F362C /* Pods-SLKeyBoardManage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLKeyBoardManage_Example-umbrella.h"; sourceTree = "<group>"; };
+		1A2D2A07204CB15EDE19D053DEF4C137 /* Pods-SLKeyBoardManage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLKeyBoardManage_Example-dummy.m"; sourceTree = "<group>"; };
+		2FEA7043AA6E092374445FDEFBB3B756 /* HBControllSenders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBControllSenders.m; path = SLKeyBoardManage/Classes/HBControllSenders.m; sourceTree = "<group>"; };
+		32ADBD79EBBA047C2B0C0EB7763D5A6B /* Pods-SLKeyBoardManage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLKeyBoardManage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3361A99C23FBD5B116C72A90095B9058 /* Pods-SLKeyBoardManage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLKeyBoardManage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		35ACAF1C0D0BB64935414C1B671E5F00 /* Pods-SLKeyBoardManage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLKeyBoardManage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AA3FC061FD4F05DE76A3CC5741157C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E155572E6323D3427B733D3398F8C58 /* Pods-SLKeyBoardManage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLKeyBoardManage_Example-resources.sh"; sourceTree = "<group>"; };
+		43E37DE823641D99F291CDF86BF6FEB5 /* Pods-SLKeyBoardManage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLKeyBoardManage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		48EAACF63A566E370AB7C4F35996A004 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4F1D91A33BADA00A96DEE3D76825DC26 /* SLKeyBoardManage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLKeyBoardManage-umbrella.h"; sourceTree = "<group>"; };
+		54D842317BEA1149192EE0E3D87F540B /* SLKeyBoardManage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLKeyBoardManage.framework; path = SLKeyBoardManage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C5D81F922634D4DFC7397B9328D928 /* Pods_SLKeyBoardManage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLKeyBoardManage_Tests.framework; path = "Pods-SLKeyBoardManage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		580EEF57F742C67971D5FC9DD7570B56 /* HBKeyBoardManage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBKeyBoardManage.h; path = SLKeyBoardManage/Classes/HBKeyBoardManage.h; sourceTree = "<group>"; };
+		60F1A90068B24994993D92D80F4C4932 /* Pods-SLKeyBoardManage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLKeyBoardManage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6437199E91D978E736EAC5D3EE70CA00 /* HBKeyBoardManage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBKeyBoardManage.m; path = SLKeyBoardManage/Classes/HBKeyBoardManage.m; sourceTree = "<group>"; };
+		64643F9ADDA25BB632B690104CAA0D5A /* SLKeyBoardManage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLKeyBoardManage-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		719428A0DDF28B563EAA74A191210FCF /* Pods-SLKeyBoardManage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLKeyBoardManage_Example.modulemap"; sourceTree = "<group>"; };
+		835606A9577188E49DA117E4C30BD89D /* SLKeyBoardManage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SLKeyBoardManage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84AB1A3431A2C41204F7246793EB52C7 /* Pods-SLKeyBoardManage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLKeyBoardManage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		888B5F0EEA8AAB211E8D702C8122D4E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97F92C22284455A1C54C1D92A70DEB7F /* Pods-SLKeyBoardManage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLKeyBoardManage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9B339402574461FB18B9917F9DDF5B3F /* SLKeyBoardManage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLKeyBoardManage.xcconfig; sourceTree = "<group>"; };
+		B6E864D5C4A704585B2791ADDB6E4348 /* Pods-SLKeyBoardManage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLKeyBoardManage_Tests-dummy.m"; sourceTree = "<group>"; };
+		BB2A36B0346C8574090BB12DA1973A5A /* Pods-SLKeyBoardManage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLKeyBoardManage_Tests-resources.sh"; sourceTree = "<group>"; };
+		CB63419E7A9A383505BA1073C77DAD30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CCBB15D8DD2CF7EF589DE6F520FF5972 /* SLKeyBoardManage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLKeyBoardManage-prefix.pch"; sourceTree = "<group>"; };
+		CCD11B44C78011970FBE554094FCF46D /* Pods-SLKeyBoardManage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLKeyBoardManage_Tests.modulemap"; sourceTree = "<group>"; };
+		CFC61AC5C56DB652FE50FC94F5902AC8 /* SLKeyBoardManage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLKeyBoardManage.modulemap; sourceTree = "<group>"; };
+		D5166900253C290C39924B3E625E692F /* HBControllSenderProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBControllSenderProtocol.h; path = SLKeyBoardManage/Classes/HBControllSenderProtocol.h; sourceTree = "<group>"; };
+		DA211D404B5B9D550502E4ED04BA24F2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SLKeyBoardManage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		DBCDC776F77CCC69F42EC7043CE3F4F0 /* Pods-SLKeyBoardManage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLKeyBoardManage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DFBDFFF9A02E900BE716B6109BF13CAF /* Pods-SLKeyBoardManage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLKeyBoardManage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F50D07EC681E6BB36CD6A3B86CAE0BB6 /* Pods_SLKeyBoardManage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLKeyBoardManage_Example.framework; path = "Pods-SLKeyBoardManage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD65CA0C0DCBF6DA5750ACAE09222132 /* Pods-SLKeyBoardManage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLKeyBoardManage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FE11D4A049D63D108BB85F04C838A79F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A972A2634FCEB86881514352D0E9B6C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4617449553E9DB4F2EF2AD5B8C4ED4BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0815F18141CB26EEE7752AC7C6ADD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB76DD47CBDCE8B21D6917589F895EF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D265C65303E7FB87C7AA828D2245BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41833A1C86BFDE9850EF4A6DEAD2FEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04645A1BFE6B55487F5BAF7DC58106BB /* Pods-SLKeyBoardManage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3FC061FD4F05DE76A3CC5741157C8 /* Info.plist */,
+				719428A0DDF28B563EAA74A191210FCF /* Pods-SLKeyBoardManage_Example.modulemap */,
+				84AB1A3431A2C41204F7246793EB52C7 /* Pods-SLKeyBoardManage_Example-acknowledgements.markdown */,
+				DFBDFFF9A02E900BE716B6109BF13CAF /* Pods-SLKeyBoardManage_Example-acknowledgements.plist */,
+				1A2D2A07204CB15EDE19D053DEF4C137 /* Pods-SLKeyBoardManage_Example-dummy.m */,
+				DBCDC776F77CCC69F42EC7043CE3F4F0 /* Pods-SLKeyBoardManage_Example-frameworks.sh */,
+				3E155572E6323D3427B733D3398F8C58 /* Pods-SLKeyBoardManage_Example-resources.sh */,
+				1801A67FCBAACFA3EABE86895A5F362C /* Pods-SLKeyBoardManage_Example-umbrella.h */,
+				97F92C22284455A1C54C1D92A70DEB7F /* Pods-SLKeyBoardManage_Example.debug.xcconfig */,
+				60F1A90068B24994993D92D80F4C4932 /* Pods-SLKeyBoardManage_Example.release.xcconfig */,
+			);
+			name = "Pods-SLKeyBoardManage_Example";
+			path = "Target Support Files/Pods-SLKeyBoardManage_Example";
+			sourceTree = "<group>";
+		};
+		0B2D30EC5770A2144E4D7306B5C7FB5F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB63419E7A9A383505BA1073C77DAD30 /* LICENSE */,
+				48EAACF63A566E370AB7C4F35996A004 /* README.md */,
+				835606A9577188E49DA117E4C30BD89D /* SLKeyBoardManage.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2F366744F55E4175638E7B94ECC3A2F6 /* Pods-SLKeyBoardManage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FE11D4A049D63D108BB85F04C838A79F /* Info.plist */,
+				CCD11B44C78011970FBE554094FCF46D /* Pods-SLKeyBoardManage_Tests.modulemap */,
+				35ACAF1C0D0BB64935414C1B671E5F00 /* Pods-SLKeyBoardManage_Tests-acknowledgements.markdown */,
+				11C5D3BD6564AE2B66A23AFADE79C4C5 /* Pods-SLKeyBoardManage_Tests-acknowledgements.plist */,
+				B6E864D5C4A704585B2791ADDB6E4348 /* Pods-SLKeyBoardManage_Tests-dummy.m */,
+				3361A99C23FBD5B116C72A90095B9058 /* Pods-SLKeyBoardManage_Tests-frameworks.sh */,
+				BB2A36B0346C8574090BB12DA1973A5A /* Pods-SLKeyBoardManage_Tests-resources.sh */,
+				FD65CA0C0DCBF6DA5750ACAE09222132 /* Pods-SLKeyBoardManage_Tests-umbrella.h */,
+				32ADBD79EBBA047C2B0C0EB7763D5A6B /* Pods-SLKeyBoardManage_Tests.debug.xcconfig */,
+				43E37DE823641D99F291CDF86BF6FEB5 /* Pods-SLKeyBoardManage_Tests.release.xcconfig */,
+			);
+			name = "Pods-SLKeyBoardManage_Tests";
+			path = "Target Support Files/Pods-SLKeyBoardManage_Tests";
+			sourceTree = "<group>";
+		};
+		7BC0983199B85F9E5888CEEA4B22D054 /* SLKeyBoardManage */ = {
+			isa = PBXGroup;
+			children = (
+				D5166900253C290C39924B3E625E692F /* HBControllSenderProtocol.h */,
+				0076EE8AE8A4EF1368D4538D9F85C9F3 /* HBControllSenders.h */,
+				2FEA7043AA6E092374445FDEFBB3B756 /* HBControllSenders.m */,
+				580EEF57F742C67971D5FC9DD7570B56 /* HBKeyBoardManage.h */,
+				6437199E91D978E736EAC5D3EE70CA00 /* HBKeyBoardManage.m */,
+				DA211D404B5B9D550502E4ED04BA24F2 /* ReplaceMe.m */,
+				0B2D30EC5770A2144E4D7306B5C7FB5F /* Pod */,
+				F397328181F67FB507E6E4F12C20445B /* Support Files */,
+			);
+			name = SLKeyBoardManage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F944D2388B8F20FADAF9D87955B79805 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C279091AD3EE4F4639C26E5AD5B775E7 /* Products */,
+				EC6D94B739DAD8202C085E3DA59F2EEB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C279091AD3EE4F4639C26E5AD5B775E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50D07EC681E6BB36CD6A3B86CAE0BB6 /* Pods_SLKeyBoardManage_Example.framework */,
+				57C5D81F922634D4DFC7397B9328D928 /* Pods_SLKeyBoardManage_Tests.framework */,
+				54D842317BEA1149192EE0E3D87F540B /* SLKeyBoardManage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC6D94B739DAD8202C085E3DA59F2EEB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04645A1BFE6B55487F5BAF7DC58106BB /* Pods-SLKeyBoardManage_Example */,
+				2F366744F55E4175638E7B94ECC3A2F6 /* Pods-SLKeyBoardManage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F397328181F67FB507E6E4F12C20445B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				888B5F0EEA8AAB211E8D702C8122D4E2 /* Info.plist */,
+				CFC61AC5C56DB652FE50FC94F5902AC8 /* SLKeyBoardManage.modulemap */,
+				9B339402574461FB18B9917F9DDF5B3F /* SLKeyBoardManage.xcconfig */,
+				64643F9ADDA25BB632B690104CAA0D5A /* SLKeyBoardManage-dummy.m */,
+				CCBB15D8DD2CF7EF589DE6F520FF5972 /* SLKeyBoardManage-prefix.pch */,
+				4F1D91A33BADA00A96DEE3D76825DC26 /* SLKeyBoardManage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLKeyBoardManage";
+			sourceTree = "<group>";
+		};
+		F944D2388B8F20FADAF9D87955B79805 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BC0983199B85F9E5888CEEA4B22D054 /* SLKeyBoardManage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D6AAF9B6AF1C92F14DEC799D2152A81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F58AF7DB4C1D30683B94431D1EAF7E2 /* Pods-SLKeyBoardManage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6757A15E402EFCD07B0EF2DD612C4C80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32966A9DEF4C35A846629AF1D55B10E4 /* HBControllSenderProtocol.h in Headers */,
+				E951134C6F9F7D369DDF7F8D824AE514 /* HBControllSenders.h in Headers */,
+				441848BA4C2D4EA9794AB15666913AB2 /* HBKeyBoardManage.h in Headers */,
+				12F2AB8FCA8EC2AD03111F71B54EAA90 /* SLKeyBoardManage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813952EAAF7BA0D299F900AFF2C86690 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9928A3EDB65CCF4BA474B984CABB9C5 /* Pods-SLKeyBoardManage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		749F7B5413F56A7DC06F61D04EE0520C /* Pods-SLKeyBoardManage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D5009EAADBC5D823E81BF0DBEF7034 /* Build configuration list for PBXNativeTarget "Pods-SLKeyBoardManage_Tests" */;
+			buildPhases = (
+				DC7C8075B43427CE51489D125369F56B /* Sources */,
+				A972A2634FCEB86881514352D0E9B6C7 /* Frameworks */,
+				0D6AAF9B6AF1C92F14DEC799D2152A81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B5275622CF1C941B1560D0DAFA1D5F /* PBXTargetDependency */,
+			);
+			name = "Pods-SLKeyBoardManage_Tests";
+			productName = "Pods-SLKeyBoardManage_Tests";
+			productReference = 57C5D81F922634D4DFC7397B9328D928 /* Pods_SLKeyBoardManage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F6FA19C0E3F6C19E7814DA79ED1D264 /* Pods-SLKeyBoardManage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1565D3EDEEF5AC6A7CAF14C99148958 /* Build configuration list for PBXNativeTarget "Pods-SLKeyBoardManage_Example" */;
+			buildPhases = (
+				16AF431142C34D682EAA62379771C4C5 /* Sources */,
+				AB0815F18141CB26EEE7752AC7C6ADD6 /* Frameworks */,
+				813952EAAF7BA0D299F900AFF2C86690 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F9E3F39D8630BD266DE86E66781CCA /* PBXTargetDependency */,
+			);
+			name = "Pods-SLKeyBoardManage_Example";
+			productName = "Pods-SLKeyBoardManage_Example";
+			productReference = F50D07EC681E6BB36CD6A3B86CAE0BB6 /* Pods_SLKeyBoardManage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACAB82B0C911160191224BFAD0AD263A /* SLKeyBoardManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025D0E1B36679DE94CB5C50AB6F72408 /* Build configuration list for PBXNativeTarget "SLKeyBoardManage" */;
+			buildPhases = (
+				5184F59A34C5247EAC093DD402F9AF90 /* Sources */,
+				C7D265C65303E7FB87C7AA828D2245BB /* Frameworks */,
+				6757A15E402EFCD07B0EF2DD612C4C80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLKeyBoardManage;
+			productName = SLKeyBoardManage;
+			productReference = 54D842317BEA1149192EE0E3D87F540B /* SLKeyBoardManage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C279091AD3EE4F4639C26E5AD5B775E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6FA19C0E3F6C19E7814DA79ED1D264 /* Pods-SLKeyBoardManage_Example */,
+				749F7B5413F56A7DC06F61D04EE0520C /* Pods-SLKeyBoardManage_Tests */,
+				ACAB82B0C911160191224BFAD0AD263A /* SLKeyBoardManage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16AF431142C34D682EAA62379771C4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124128FFBB2B4F003C64BECFE7503E77 /* Pods-SLKeyBoardManage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5184F59A34C5247EAC093DD402F9AF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02EF4574A8CBBF2FA93D19C4BA7FD211 /* HBControllSenders.m in Sources */,
+				639CE2B4533A7821879FDAC0A52A9431 /* HBKeyBoardManage.m in Sources */,
+				503B835325373E20CC6D40E928CD0291 /* ReplaceMe.m in Sources */,
+				9A10E703C5BA25E3918BC2E8D32D65EB /* SLKeyBoardManage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7C8075B43427CE51489D125369F56B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835B954B00A218FDD7C8D261ABBC3E75 /* Pods-SLKeyBoardManage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B5275622CF1C941B1560D0DAFA1D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SLKeyBoardManage_Example";
+			target = 8F6FA19C0E3F6C19E7814DA79ED1D264 /* Pods-SLKeyBoardManage_Example */;
+			targetProxy = 012458263EF31698372C6FF8264AA72C /* PBXContainerItemProxy */;
+		};
+		52F9E3F39D8630BD266DE86E66781CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SLKeyBoardManage;
+			target = ACAB82B0C911160191224BFAD0AD263A /* SLKeyBoardManage */;
+			targetProxy = 2695CA1568575893277740B8049497BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6660D776A3CDE2D6D3C384B4A18035B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B339402574461FB18B9917F9DDF5B3F /* SLKeyBoardManage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLKeyBoardManage/SLKeyBoardManage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLKeyBoardManage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLKeyBoardManage/SLKeyBoardManage.modulemap";
+				PRODUCT_MODULE_NAME = SLKeyBoardManage;
+				PRODUCT_NAME = SLKeyBoardManage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0A16D3175C24D13BD25D50D7F5E86AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32ADBD79EBBA047C2B0C0EB7763D5A6B /* Pods-SLKeyBoardManage_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLKeyBoardManage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLKeyBoardManage_Tests/Pods-SLKeyBoardManage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CDDB4A962C7AEACF6140D7959A399344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F1A90068B24994993D92D80F4C4932 /* Pods-SLKeyBoardManage_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLKeyBoardManage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLKeyBoardManage_Example/Pods-SLKeyBoardManage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8A4F8E403E8AE595D166389091A88E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F92C22284455A1C54C1D92A70DEB7F /* Pods-SLKeyBoardManage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLKeyBoardManage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLKeyBoardManage_Example/Pods-SLKeyBoardManage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED8AB2B810A014ED314743BB64524506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E37DE823641D99F291CDF86BF6FEB5 /* Pods-SLKeyBoardManage_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLKeyBoardManage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLKeyBoardManage_Tests/Pods-SLKeyBoardManage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F78D532AC12C3F33DE25628E278D6338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B339402574461FB18B9917F9DDF5B3F /* SLKeyBoardManage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLKeyBoardManage/SLKeyBoardManage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLKeyBoardManage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLKeyBoardManage/SLKeyBoardManage.modulemap";
+				PRODUCT_MODULE_NAME = SLKeyBoardManage;
+				PRODUCT_NAME = SLKeyBoardManage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025D0E1B36679DE94CB5C50AB6F72408 /* Build configuration list for PBXNativeTarget "SLKeyBoardManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F78D532AC12C3F33DE25628E278D6338 /* Debug */,
+				6660D776A3CDE2D6D3C384B4A18035B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D5009EAADBC5D823E81BF0DBEF7034 /* Build configuration list for PBXNativeTarget "Pods-SLKeyBoardManage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A16D3175C24D13BD25D50D7F5E86AF /* Debug */,
+				ED8AB2B810A014ED314743BB64524506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1565D3EDEEF5AC6A7CAF14C99148958 /* Build configuration list for PBXNativeTarget "Pods-SLKeyBoardManage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A4F8E403E8AE595D166389091A88E5 /* Debug */,
+				CDDB4A962C7AEACF6140D7959A399344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SLKeyBoardManage (0.1.0)
+
+DEPENDENCIES:
+  - SLKeyBoardManage (from `../`)
+
+EXTERNAL SOURCES:
+  SLKeyBoardManage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SLKeyBoardManage: 5c99934c9d16e28ecd02a81850bcc586c5f9ea43
+
+PODFILE CHECKSUM: fbfa2ffcf3dac21323af633f18120e4fc3adecb9
+
+COCOAPODS: 1.5.0

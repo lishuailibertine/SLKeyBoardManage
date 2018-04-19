@@ -1,0 +1,6 @@
+framework module SLKeyBoardManage {
+  umbrella header "SLKeyBoardManage-umbrella.h"
+
+  export *
+  module * { export * }
+}
